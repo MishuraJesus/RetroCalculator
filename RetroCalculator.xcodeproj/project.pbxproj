@@ -12,10 +12,10 @@
 		7CA83EFE1EC1A68C003D66BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA83EFD1EC1A68C003D66BA /* ViewController.swift */; };
 		7CA83F011EC1A68C003D66BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83EFF1EC1A68C003D66BA /* Main.storyboard */; };
 		7CA83F031EC1A68C003D66BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83F021EC1A68C003D66BA /* Assets.xcassets */; };
-		7CA83F061EC1A68C003D66BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83F041EC1A68C003D66BA /* LaunchScreen.storyboard */; };
 		7CA83F0F1EC1C8A5003D66BA /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83F0D1EC1C8A5003D66BA /* Minecrafter.Alt.ttf */; };
 		7CA83F101EC1C8A5003D66BA /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83F0E1EC1C8A5003D66BA /* Minecrafter.Reg.ttf */; };
 		7CA83F141EC1C9CE003D66BA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CA83F131EC1C9CE003D66BA /* btn.wav */; };
+		7CC5050E1EC212C0001D54C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5050D1EC212C0001D54C2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +25,11 @@
 		7CA83EFD1EC1A68C003D66BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CA83F001EC1A68C003D66BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CA83F021EC1A68C003D66BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CA83F051EC1A68C003D66BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA83F071EC1A68C003D66BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CA83F0D1EC1C8A5003D66BA /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
 		7CA83F0E1EC1C8A5003D66BA /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 		7CA83F131EC1C9CE003D66BA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		7CC5050D1EC212C0001D54C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				7CA83EFD1EC1A68C003D66BA /* ViewController.swift */,
 				7C79D23E1EC1DC02003430E4 /* CalculatorBrain.swift */,
 				7CA83EFF1EC1A68C003D66BA /* Main.storyboard */,
+				7CC5050D1EC212C0001D54C2 /* Launch Screen.storyboard */,
 				7CA83F021EC1A68C003D66BA /* Assets.xcassets */,
-				7CA83F041EC1A68C003D66BA /* LaunchScreen.storyboard */,
 				7CA83F071EC1A68C003D66BA /* Info.plist */,
 			);
 			path = RetroCalculator;
@@ -144,12 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA83F061EC1A68C003D66BA /* LaunchScreen.storyboard in Resources */,
 				7CA83F031EC1A68C003D66BA /* Assets.xcassets in Resources */,
 				7CA83F0F1EC1C8A5003D66BA /* Minecrafter.Alt.ttf in Resources */,
 				7CA83F141EC1C9CE003D66BA /* btn.wav in Resources */,
 				7CA83F011EC1A68C003D66BA /* Main.storyboard in Resources */,
 				7CA83F101EC1C8A5003D66BA /* Minecrafter.Reg.ttf in Resources */,
+				7CC5050E1EC212C0001D54C2 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +175,6 @@
 				7CA83F001EC1A68C003D66BA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7CA83F041EC1A68C003D66BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CA83F051EC1A68C003D66BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
