@@ -51,19 +51,30 @@ class ViewController: UIViewController {
     
     @IBAction func addButtonPressed(sender: UIButton) {
         performOperation("+")
+        playSound()
     }
     @IBAction func subtractButtonPressed(sender: UIButton) {
         performOperation("-")
+        playSound()
     }
     @IBAction func multiplyButtonPressed(sender: UIButton) {
         performOperation("*")
+        playSound()
     }
     @IBAction func divideButtonPressed(sender: UIButton) {
         performOperation("/")
+        playSound()
     }
     @IBAction func resultButtonPressed(sender: UIButton) {
         performOperation("=")
+        playSound()
     }
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+        playSound()
+        outputLabel.text = "0"
+        userIsInTheMiddleOfTyping = false
+    }
+    
     
     var displayValue: Double {
         get {
